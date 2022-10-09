@@ -5,7 +5,7 @@ body{
 }
 
 .content_image img {
-    width:300px;
+    width:375px;
     height:auto;
 }
 
@@ -24,22 +24,61 @@ body{
     justify-content: space-between;
     align-items:center;
     background-color:#1f2937;
-    color:white;
     padding:16px;
 }
 
 .logo {
-    font-size:48px;
-    font-weight:extra-bold;
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight:bolder;
 }
 
 .navlinks ul{
     display:flex;
-    gap:8px;
+    gap:24px;
     list-style-type:none;
+    font-size:18px;
+    color:#E7E7EB;
 }
 
 a{
     color:inherit;
     text-decoration:none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    gap:24px;
+    background-color:#1f2937;
+}
+
+.content_header{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+    margin-bottom:16px;
+
+}
+
+.content_text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    font-size:18px;
+    color:#E7E7EB;
+    
+}
+
+.content_caption{
+    margin-bottom:16px;
+}
+
+.content button {
+    background-color:#3882F6;
+    width:80px;
+    border-radius: 5px;
+    padding:8px;
+    color:#E7E7EB;
 }
