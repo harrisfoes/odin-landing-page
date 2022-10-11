@@ -9,16 +9,6 @@ body{
     height:auto;
 }
 
-.card {
-    width:150px;
-    height:150px;
-}
-.card_image {
-    width:inherit;
-    height:inherit;
-    border: 1px solid blue;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
@@ -75,10 +65,124 @@ a{
     margin-bottom:16px;
 }
 
-.content button {
+.content button, .cta_bluebox button {
     background-color:#3882F6;
     width:80px;
     border-radius: 5px;
     padding:8px;
+    color:#E7E7EB;
+    height:35px;
+    border-color:white;
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.randominfo_text{
+    display: flex;
+    justify-content: center;
+    font-size:36px; 
+    font-weight: 900;
+    color: #1F2937;
+    padding:24px;
+}
+
+.cardholders {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    height: 240px;
+    gap:24px;
+}
+
+.card {
+    width:150px;
+    height:150px;
+}
+.card_image {
+    width:inherit;
+    height:inherit;
+    border: 2px solid #3882F6;
+    border-radius: 18px;
+}
+
+.card_caption {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height:320px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    text-align:left;
+    width: 640px;
+}
+
+.quotee{
+    text-align:right;
+    width: 640px;
+    color: #1F2937;
+    font-weight:600;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.cta_bluebox {
+    background-color: #3882F6;
+    padding: 32px;
+    width: 720px;
+    border-radius: 12px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_content{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.cta_textbox {
+    color:#E7E7EB;
+
+}
+
+.cta_header{
+    font-size:16px;
+    font-weight:900;
+    color:#E7E7EB;
+    margin-bottom:8px;
+}
+
+.cta_text{
+    font-size:16px;
+    color:#E7E7EB;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    align-items: center;
+    background-color:#1f2937;
     color:#E7E7EB;
 }
