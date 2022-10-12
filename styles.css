@@ -2,6 +2,7 @@ body{
     display:flex;
     flex-direction:column;
     font-family: 'Roboto', serif;
+    margin: 0;
 }
 
 .content_image img {
@@ -94,7 +95,7 @@ a{
     justify-content: center;
     padding: 32px;
     height: 240px;
-    gap:24px;
+    gap:32px;
 }
 
 .card {
@@ -106,12 +107,14 @@ a{
     height:inherit;
     border: 2px solid #3882F6;
     border-radius: 18px;
+    align-items: center;
 }
 
 .card_caption {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 4px;
 }
 
 .testimonial {
@@ -185,4 +188,14 @@ footer{
     align-items: center;
     background-color:#1f2937;
     color:#E7E7EB;
+}
+
+.card_image {
+    padding:6px;
+    display:flex;
+}
+
+.card_image img{
+    max-width:100%;
+    max-height:100%;
 }
